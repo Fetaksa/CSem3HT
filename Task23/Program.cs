@@ -10,7 +10,7 @@ void Cubes(int num)
     {
         for (int i = 1; i <= num; i++)
         {
-            Console.WriteLine($"{i}   {i * i * i}");
+            Console.WriteLine($"{i, 4}   {i * i * i, 4}");
         }
     }
     else
